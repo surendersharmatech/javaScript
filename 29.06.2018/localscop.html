@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h4>Local scop Example</h4>
+<p>The local variable bikeName cannot be accessed from code outside the function:</p>
+
+<p id="demo"></p>
+
+<script>
+myFunction();
+document.getElementById("demo").innerHTML =
+"The type of Bike Name is " + typeof bikeName;
+
+function myFunction() {
+    var bikeName = "Honda"; //define in the function
+}
+</script>
+
+</body>
+</html>

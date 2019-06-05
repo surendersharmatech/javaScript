@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Math.sin() & Math.cos()</h2>
+
+<p>Math.sin(x) returns the sin of x (given in radians):</p>
+<p>Angle in radians = (angle in degrees) * PI / 180.</p>
+
+<p id="sin"></p>
+
+<p>Math.cos(x) returns the cosin of x (given in radians):</p>
+<p>Angle in radians = (angle in degrees) * PI / 180.</p>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("sin").innerHTML = 
+"The sine value of 90 degrees is " + Math.sin(90 * Math.PI / 180);
+document.getElementById("cos").innerHTML = 
+"The cosine value of 0 degrees is " + Math.cos(0 * Math.PI / 180);
+</script>
+
+</body>
+</html>

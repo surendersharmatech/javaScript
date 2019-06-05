@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>A GLOBAL variable can be accessed from any script or function.</p>
+
+<p id="demo"></p>
+
+<script>
+var bikeName = "Honda";
+myFunction();
+
+function myFunction() {
+    document.getElementById("demo").innerHTML =
+    "I can display " + bikeName;
+}
+</script>
+
+</body>

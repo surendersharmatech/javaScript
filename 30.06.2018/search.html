@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Search a string for "like", and display the position of the match:</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var str = "I like codeing!"; 
+    var n = str.search(/like/i);
+    document.getElementById("demo").innerHTML = n;
+}
+</script>
+
+</body>
+</html>
